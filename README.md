@@ -1,4 +1,4 @@
-# Replace the dependency from  path to the 0.3.1 release to reproduce the error
+# Replace the dependency from path to the 0.3.1 release to reproduce the error
 
 ```toml
 [package]

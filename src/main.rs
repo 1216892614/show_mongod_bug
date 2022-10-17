@@ -12,6 +12,8 @@ pub enum MyError {
     Unknown,
 }
 
+// Replace the dependency in toml from path to the 0.3.1 release to reproduce the error
+
 #[derive(Debug, Bson, Mongo)]
 #[mongo(collection = "users", field, filter, update)]
 struct User {
